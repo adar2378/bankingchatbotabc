@@ -1,0 +1,886 @@
+﻿{
+  "rasa_nlu_data": {
+    "common_examples": [
+      {
+        "text": "hey",
+        "intent": "greet",
+        "entities": []
+      },
+      {
+        "text": "howdy",
+        "intent": "greet",
+        "entities": []
+      },
+      {
+        "text": "hey there",
+        "intent": "greet",
+        "entities": []
+      },
+      {
+        "text": "hello",
+        "intent": "greet",
+        "entities": []
+      },
+      {
+        "text": "hi",
+        "intent": "greet",
+        "entities": []
+      },
+      {
+        "text": "yes",
+        "intent": "affirm",
+        "entities": []
+      },
+      {
+        "text": "yep",
+        "intent": "affirm",
+        "entities": []
+      },
+      {
+        "text": "yeah",
+        "intent": "affirm",
+        "entities": []
+      },
+      {
+        "text": "bye",
+        "intent": "goodbye",
+        "entities": []
+      },
+      {
+        "text": "goodbye",
+        "intent": "goodbye",
+        "entities": []
+      },
+      {
+        "text": "good bye",
+        "intent": "goodbye",
+        "entities": []
+      },
+      {
+        "text": "stop",
+        "intent": "goodbye",
+        "entities": []
+      },
+      {
+        "text": "indeed",
+        "intent": "affirm",
+        "entities": []
+      },
+      {
+        "text": "that's right",
+        "intent": "affirm",
+        "entities": []
+      },
+      {
+        "text": "ok",
+        "intent": "affirm",
+        "entities": []
+      },
+      {
+        "text": "great",
+        "intent": "affirm",
+        "entities": []
+      },
+      {
+        "text": "what's up?",
+        "intent": "greet",
+        "entities": []
+      },
+      {
+        "text": "I want a new credit card",
+        "intent": "new_card",
+        "entities": [
+          {
+            "start": 13,
+            "end": 24,
+            "value": "credit card",
+            "entity": "card_type"
+          }
+        ]
+      },
+      {
+        "text": "how to get a new credit card?",
+        "intent": "new_card",
+        "entities": [
+          {
+            "start": 17,
+            "end": 28,
+            "value": "credit card",
+            "entity": "card_type"
+          }
+        ]
+      },
+      {
+        "text": "credit card",
+        "intent": "new_card",
+        "entities": [
+          {
+            "start": 0,
+            "end": 11,
+            "value": "credit card",
+            "entity": "card_type"
+          }
+        ]
+      },
+      {
+        "text": "new credit card",
+        "intent": "new_card",
+        "entities": [
+          {
+            "start": 4,
+            "end": 15,
+            "value": "credit card",
+            "entity": "card_type"
+          }
+        ]
+      },
+      {
+        "text": "I've lost my credit card",
+        "intent": "lost_card",
+        "entities": []
+      },
+      {
+        "text": "my credit card is not working.",
+        "intent": "lost_card",
+        "entities": []
+      },
+      {
+        "text": "my credit card is damaged",
+        "intent": "lost_card",
+        "entities": []
+      },
+      {
+        "text": "I want to close my credit card",
+        "intent": "lost_card",
+        "entities": []
+      },
+      {
+        "text": "my credit card is stolen!",
+        "intent": "lost_card",
+        "entities": []
+      },
+      {
+        "text": "Someone has stolen my credit card",
+        "intent": "lost_card",
+        "entities": []
+      },
+      {
+        "text": "my credit card got damaged",
+        "intent": "lost_card",
+        "entities": []
+      },
+      {
+        "text": "I am unable to find my credit card",
+        "intent": "lost_card",
+        "entities": []
+      },
+      {
+        "text": "Account Summary ",
+        "intent": "summary",
+        "entities": []
+      },
+      {
+        "text": "show me the summary of my account ",
+        "intent": "summary",
+        "entities": []
+      },
+      {
+        "text": "account balance please ",
+        "intent": "show_balance",
+        "entities": []
+      },
+      {
+        "text": "Account status ",
+        "intent": "summary",
+        "entities": []
+      },
+      {
+        "text": "my last transaction ",
+        "intent": "transaction",
+        "entities": []
+      },
+      {
+        "text": "transaction list ",
+        "intent": "transaction",
+        "entities": []
+      },
+      {
+        "text": "transaction log",
+        "intent": "transaction",
+        "entities": []
+      },
+      {
+        "text": "transaction time period ",
+        "intent": "transaction",
+        "entities": []
+      },
+      {
+        "text": "can you show me my recent transactions",
+        "intent": "transaction",
+        "entities": []
+      },
+      {
+        "text": "what did i shop using my credit card",
+        "intent": "transaction",
+        "entities": []
+      },
+      {
+        "text": "how much money did i spent in my last transaction",
+        "intent": "transaction",
+        "entities": []
+      },
+      {
+        "text": "what is the balance limit of my credit card",
+        "intent": "credit_card_limit",
+        "entities": []
+      },
+      {
+        "text": "how much i can spend using my credit card",
+        "intent": "credit_card_limit",
+        "entities": []
+      },
+      {
+        "text": "when will my credit card expire",
+        "intent": "credit_card_limit",
+        "entities": []
+      },
+      {
+        "text": "when to renew my credit card",
+        "intent": "credit_card_limit",
+        "entities": []
+      },
+      {
+        "text": "expiration date of my credit card",
+        "intent": "credit_card_limit",
+        "entities": []
+      },
+      {
+        "text": "how can i transfer the ownership of my credit card",
+        "intent": "transfer_credit_card_ownership",
+        "entities": []
+      },
+      {
+        "text": "how to extend the credit limit of my credit card",
+        "intent": "credit_card_limit",
+        "entities": []
+      },
+      {
+        "text": "how can i get a debit card",
+        "intent": "new_card",
+        "entities": [
+          {
+            "start": 16,
+            "end": 26,
+            "value": "debit card",
+            "entity": "card_type"
+          }
+        ]
+      },
+      {
+        "text": "how can i renew my debit card",
+        "intent": "new_card",
+        "entities": [
+          {
+            "start": 19,
+            "end": 29,
+            "value": "debit card",
+            "entity": "card_type"
+          }
+        ]
+      },
+      {
+        "text": "what is the limit of my debit card ",
+        "intent": "new_card",
+        "entities": [
+          {
+            "start": 24,
+            "end": 35,
+            "value": "debit card ",
+            "entity": "card_type"
+          }
+        ]
+      },
+      {
+        "text": "shopping log of my debit card",
+        "intent": "debit_card_summary",
+        "entities": [
+          {
+            "start": 19,
+            "end": 29,
+            "value": "debit card",
+            "entity": "card_type"
+          }
+        ]
+      },
+      {
+        "text": "how to change the password of my debit card",
+        "intent": "change_password",
+        "entities": []
+      },
+      {
+        "text": "how to set a new password",
+        "intent": "change_password",
+        "entities": []
+      },
+      {
+        "text": "how many transaction i can do in one day using my debit card",
+        "intent": "debit_card_summary",
+        "entities": [
+          {
+            "start": 50,
+            "end": 60,
+            "value": "debit card",
+            "entity": ""
+          }
+        ]
+      },
+      {
+        "text": "how to turn off my lost debit card",
+        "intent": "lost_card",
+        "entities": []
+      },
+      {
+        "text": "I have lost my credit card",
+        "intent": "lost_card",
+        "entities": []
+      },
+      {
+        "text": "I have lost my credit card",
+        "intent": "lost_card",
+        "entities": []
+      },
+      {
+        "text": "I want to get a debit card",
+        "intent": "new_card",
+        "entities": [
+          {
+            "start": 16,
+            "end": 26,
+            "value": "debit card",
+            "entity": "card_type"
+          }
+        ]
+      },
+      {
+        "text": "how to get a new debit card",
+        "intent": "new_card",
+        "entities": [
+          {
+            "start": 17,
+            "end": 27,
+            "value": "debit card",
+            "entity": "card_type"
+          }
+        ]
+      },
+      {
+        "text": "debit card",
+        "intent": "new_card",
+        "entities": [
+          {
+            "start": 0,
+            "end": 10,
+            "value": "debit card",
+            "entity": "card_type"
+          }
+        ]
+      },
+      {
+        "text": "new debit card",
+        "intent": "new_card",
+        "entities": [
+          {
+            "start": 4,
+            "end": 14,
+            "value": "debit card",
+            "entity": "card_type"
+          }
+        ]
+      },
+      {
+        "text": "I want a debit card for me",
+        "intent": "new_card",
+        "entities": [
+          {
+            "start": 9,
+            "end": 19,
+            "value": "debit card",
+            "entity": "card_type"
+          }
+        ]
+      },
+      {
+        "text": "I want a credit card for me",
+        "intent": "new_card",
+        "entities": [
+          {
+            "start": 9,
+            "end": 20,
+            "value": "credit card",
+            "entity": "card_type"
+          }
+        ]
+      },
+      {
+        "text": "what is my current account balance?",
+        "intent": "show_balance",
+        "entities": []
+      },
+      {
+        "text": "How much money do I have in my account right now?",
+        "intent": "show_balance",
+        "entities": []
+      },
+      {
+        "text": "What is the current condition of my account?",
+        "intent": "summary",
+        "entities": []
+      },
+      {
+        "text": "How much money do I have left in my account?",
+        "intent": "show_balance",
+        "entities": []
+      },
+      {
+        "text": "I have forgot my old password",
+        "intent": "change_password",
+        "entities": []
+      },
+      {
+        "text": "Show me my recent activities of my card",
+        "intent": "transaction",
+        "entities": []
+      },
+      {
+        "text": "Show me my account details",
+        "intent": "summary",
+        "entities": []
+      },
+      {
+        "text": "What kind of accounts are there in your bank?",
+        "intent": "account_type",
+        "entities": []
+      },
+      {
+        "text": "How many types of account I can open in your bank?",
+        "intent": "account_type",
+        "entities": []
+      },
+      {
+        "text": "How many types of accounts are available in your bank?",
+        "intent": "account_type",
+        "entities": []
+      },
+      {
+        "text": "Tell me the details of about different kind of account types",
+        "intent": "account_type",
+        "entities": []
+      },
+      {
+        "text": "How to get video footage of ATM booth?",
+        "intent": "atm_video",
+        "entities": []
+      },
+      {
+        "text": "I want to see the video footage of the atm booth of this area",
+        "intent": "atm_video",
+        "entities": []
+      },
+      {
+        "text": "I want to watch the video footage of Bashundhara ATM booth",
+        "intent": "atm_video",
+        "entities": [
+          {
+            "start": 37,
+            "end": 48,
+            "value": "Bashundhara",
+            "entity": "atm_booth_area"
+          }
+        ]
+      },
+      {
+        "text": "Someone hijacked me in the ATM booth.",
+        "intent": "atm_video",
+        "entities": []
+      },
+      {
+        "text": "I want to identify the robbers from ATM booth",
+        "intent": "atm_video",
+        "entities": []
+      },
+      {
+        "text": "Someone forced me to withdraw money from the ATM booth of Bashundhara",
+        "intent": "atm_video",
+        "entities": [
+          {
+            "start": 58,
+            "end": 69,
+            "value": "Bashundhara",
+            "entity": "atm_booth_area"
+          }
+        ]
+      },
+      {
+        "text": "How many transactions can be done in one day using credit or debit card?",
+        "intent": "card_limit",
+        "entities": []
+      },
+      {
+        "text": "how much money i can withdraw in one day from ATM booth",
+        "intent": "card_limit",
+        "entities": []
+      },
+      {
+        "text": "How much money I can withdraw from ATM booth using credit card",
+        "intent": "card_limit",
+        "entities": []
+      },
+      {
+        "text": "How much money I can withdraw from ATM booth using debit card",
+        "intent": "card_limit",
+        "entities": []
+      },
+      {
+        "text": "how money transactions can be done in one day with shopping card",
+        "intent": "card_limit",
+        "entities": []
+      },
+      {
+        "text": "how money transactions can be done in one day with credit card",
+        "intent": "card_limit",
+        "entities": []
+      },
+      {
+        "text": "how money transactions can be done in one day with debit card",
+        "intent": "card_limit",
+        "entities": []
+      },
+      {
+        "text": "what is highest amount that I can withdraw from atm booth",
+        "intent": "card_limit",
+        "entities": []
+      },
+      {
+        "text": "what is the maximum amount that i can withdraw from atm booth?",
+        "intent": "card_limit",
+        "entities": []
+      },
+      {
+        "text": "what is the lowest amount i can withdraw from atm booth?",
+        "intent": "card_limit",
+        "entities": []
+      },
+      {
+        "text": "what is the minimum amount that i can withdraw from atm machine",
+        "intent": "card_limit",
+        "entities": []
+      },
+      {
+        "text": "what is the minimum amount that i can withdraw from atm booth",
+        "intent": "card_limit",
+        "entities": []
+      },
+      {
+        "text": "what is the highest and lowest amount that i can withdraw using atm card in a day?",
+        "intent": "card_limit",
+        "entities": []
+      },
+      {
+        "text": "How much do you charge for cards?",
+        "intent": "card_charge",
+        "entities": []
+      },
+      {
+        "text": "How much do you charge for debit card?",
+        "intent": "card_charge",
+        "entities": [
+          {
+            "start": 27,
+            "end": 37,
+            "value": "debit card",
+            "entity": "card_type"
+          }
+        ]
+      },
+      {
+        "text": "How much do you charge for credit card?",
+        "intent": "card_charge",
+        "entities": [
+          {
+            "start": 27,
+            "end": 38,
+            "value": "credit card",
+            "entity": "card_type"
+          }
+        ]
+      },
+      {
+        "text": "What is the annual fee of card?",
+        "intent": "card_charge",
+        "entities": []
+      },
+      {
+        "text": "what is the annual fee of debit card?",
+        "intent": "card_charge",
+        "entities": []
+      },
+      {
+        "text": "what is the annual fee of credit card?",
+        "intent": "card_charge",
+        "entities": [
+          {
+            "start": 26,
+            "end": 37,
+            "value": "credit card",
+            "entity": "card_type"
+          }
+        ]
+      },
+      {
+        "text": "what is the annual fee of debit card?",
+        "intent": "card_charge",
+        "entities": [
+          {
+            "start": 26,
+            "end": 36,
+            "value": "debit card",
+            "entity": "card_type"
+          }
+        ]
+      },
+      {
+        "text": "how much do i have to pay per year for a debit card?",
+        "intent": "card_charge",
+        "entities": [
+          {
+            "start": 41,
+            "end": 51,
+            "value": "debit card",
+            "entity": "card_type"
+          }
+        ]
+      },
+      {
+        "text": "How much do I have to pay yearly for credit card?",
+        "intent": "card_charge",
+        "entities": [
+          {
+            "start": 37,
+            "end": 48,
+            "value": "credit card",
+            "entity": "card_type"
+          }
+        ]
+      },
+      {
+        "text": "yearly fee of cards?",
+        "intent": "card_charge",
+        "entities": []
+      },
+      {
+        "text": "yearly fee of credit card?",
+        "intent": "card_charge",
+        "entities": [
+          {
+            "start": 14,
+            "end": 25,
+            "value": "credit card",
+            "entity": "card_type"
+          }
+        ]
+      },
+      {
+        "text": "How to get a cheque book?",
+        "intent": "get_cheque_book",
+        "entities": []
+      },
+      {
+        "text": "How to apply for a new cheque book?",
+        "intent": "get_cheque_book",
+        "entities": []
+      },
+      {
+        "text": "How to order new cheque book?",
+        "intent": "get_cheque_book",
+        "entities": []
+      },
+      {
+        "text": "I want a new cheque book?",
+        "intent": "get_cheque_book",
+        "entities": []
+      },
+      {
+        "text": "my current account balance",
+        "intent": "show_balance",
+        "entities": []
+      },
+      {
+        "text": "Can i get loan from your bank?",
+        "intent": "loan_details",
+        "entities": []
+      },
+      {
+        "text": "how many types of loan do you provide?",
+        "intent": "loan_details",
+        "entities": []
+      },
+      {
+        "text": "loan",
+        "intent": "loan_details",
+        "entities": []
+      },
+      {
+        "text": "loan details",
+        "intent": "loan_details",
+        "entities": []
+      },
+      {
+        "text": "do you provide small loan?",
+        "intent": "loan_personal",
+        "entities": []
+      },
+      {
+        "text": "Can i get loan for medical purposes?",
+        "intent": "loan_personal",
+        "entities": []
+      },
+      {
+        "text": "Can i get loan for festivals?",
+        "intent": "loan_personal",
+        "entities": []
+      },
+      {
+        "text": "Do you provide loan for medical purposes?",
+        "intent": "loan_personal",
+        "entities": []
+      },
+      {
+        "text": "Can i get educational loan?",
+        "intent": "loan_personal",
+        "entities": []
+      },
+      {
+        "text": "Can i get loan for my study?",
+        "intent": "loan_personal",
+        "entities": []
+      },
+      {
+        "text": "Do you provide loan for education?",
+        "intent": "loan_personal",
+        "entities": []
+      },
+      {
+        "text": "Does your bank provide loan",
+        "intent": "loan_details",
+        "entities": []
+      },
+      {
+        "text": "Does your bank provide loan for educational purpose?",
+        "intent": "loan_personal",
+        "entities": []
+      },
+      {
+        "text": "Does your bank provide loan for medical purpose?",
+        "intent": "loan_personal",
+        "entities": []
+      },
+      {
+        "text": "what is the maximum loan i can get for my personal use?",
+        "intent": "loan_max",
+        "entities": [
+          {
+            "start": 42,
+            "end": 50,
+            "value": "personal",
+            "entity": "loan_type"
+          }
+        ]
+      },
+      {
+        "text": "How much money i can get from loan?",
+        "intent": "loan_max",
+        "entities": []
+      },
+      {
+        "text": "How much loan i can get for education purpose?",
+        "intent": "loan_max",
+        "entities": [
+          {
+            "start": 28,
+            "end": 37,
+            "value": "personal",
+            "entity": "loan_type"
+          }
+        ]
+      },
+      {
+        "text": "Maximum amount i can get from personal loan?",
+        "intent": "loan_max",
+        "entities": [
+          {
+            "start": 30,
+            "end": 38,
+            "value": "personal",
+            "entity": "loan_type"
+          }
+        ]
+      },
+      {
+        "text": "Does your bank provide loan for marriage purpose?",
+        "intent": "loan_personal",
+        "entities": []
+      },
+      {
+        "text": "Does your bank provide loan for travel purpose?",
+        "intent": "loan_personal",
+        "entities": []
+      },
+      {
+        "text": "Do you provide loan for marriage?",
+        "intent": "loan_personal",
+        "entities": []
+      },
+      {
+        "text": "Do you provide loan for travel?",
+        "intent": "loan_personal",
+        "entities": []
+      },
+      {
+        "text": "Maximum amount i can get from education loan?",
+        "intent": "loan_max",
+        "entities": [
+          {
+            "start": 30,
+            "end": 39,
+            "value": "personal",
+            "entity": "loan_type"
+          }
+        ]
+      },
+      {
+        "text": "Maximum amount i can get from travel loan?",
+        "intent": "loan_max",
+        "entities": [
+          {
+            "start": 30,
+            "end": 36,
+            "value": "personal",
+            "entity": "loan_type"
+          }
+        ]
+      },
+      {
+        "text": "Maximum amount i can get from marriage loan?",
+        "intent": "loan_max",
+        "entities": [
+          {
+            "start": 30,
+            "end": 38,
+            "value": "personal",
+            "entity": "loan_type"
+          }
+        ]
+      }
+    ]
+  }
+}

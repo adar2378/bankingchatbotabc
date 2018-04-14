@@ -1,0 +1,1349 @@
+{
+  "rasa_nlu_data": {
+    "entity_synonyms": [],
+    "regex_features": [],
+    "common_examples": [
+      {
+        "entities": [],
+        "intent": "greet",
+        "text": "hey"
+      },
+      {
+        "entities": [],
+        "intent": "greet",
+        "text": "howdy"
+      },
+      {
+        "entities": [],
+        "intent": "greet",
+        "text": "hey there"
+      },
+      {
+        "entities": [],
+        "intent": "greet",
+        "text": "hello"
+      },
+      {
+        "entities": [],
+        "intent": "greet",
+        "text": "hi"
+      },
+      {
+        "entities": [],
+        "intent": "affirm",
+        "text": "yes"
+      },
+      {
+        "entities": [],
+        "intent": "affirm",
+        "text": "yep"
+      },
+      {
+        "entities": [],
+        "intent": "affirm",
+        "text": "yeah"
+      },
+      {
+        "entities": [],
+        "intent": "goodbye",
+        "text": "bye"
+      },
+      {
+        "entities": [],
+        "intent": "goodbye",
+        "text": "goodbye"
+      },
+      {
+        "entities": [],
+        "intent": "goodbye",
+        "text": "good bye"
+      },
+      {
+        "entities": [],
+        "intent": "goodbye",
+        "text": "stop"
+      },
+      {
+        "entities": [],
+        "intent": "affirm",
+        "text": "indeed"
+      },
+      {
+        "entities": [],
+        "intent": "affirm",
+        "text": "that's right"
+      },
+      {
+        "entities": [],
+        "intent": "affirm",
+        "text": "ok"
+      },
+      {
+        "entities": [],
+        "intent": "affirm",
+        "text": "great"
+      },
+      {
+        "entities": [],
+        "intent": "greet",
+        "text": "what's up?"
+      },
+      {
+        "entities": [
+          {
+            "value": "credit card",
+            "entity": "card_type",
+            "end": 24,
+            "start": 13
+          }
+        ],
+        "intent": "new_card",
+        "text": "I want a new credit card"
+      },
+      {
+        "entities": [
+          {
+            "value": "credit card",
+            "entity": "card_type",
+            "end": 28,
+            "start": 17
+          }
+        ],
+        "intent": "new_card",
+        "text": "how to get a new credit card?"
+      },
+      {
+        "entities": [
+          {
+            "value": "credit card",
+            "entity": "card_type",
+            "end": 11,
+            "start": 0
+          }
+        ],
+        "intent": "new_card",
+        "text": "credit card"
+      },
+      {
+        "entities": [
+          {
+            "value": "credit card",
+            "entity": "card_type",
+            "end": 15,
+            "start": 4
+          }
+        ],
+        "intent": "new_card",
+        "text": "new credit card"
+      },
+      {
+        "entities": [],
+        "intent": "lost_card",
+        "text": "I've lost my credit card"
+      },
+      {
+        "entities": [],
+        "intent": "lost_card",
+        "text": "my credit card is not working."
+      },
+      {
+        "entities": [],
+        "intent": "lost_card",
+        "text": "my credit card is damaged"
+      },
+      {
+        "entities": [],
+        "intent": "lost_card",
+        "text": "I want to close my credit card"
+      },
+      {
+        "entities": [],
+        "intent": "lost_card",
+        "text": "my credit card is stolen!"
+      },
+      {
+        "entities": [],
+        "intent": "lost_card",
+        "text": "Someone has stolen my credit card"
+      },
+      {
+        "entities": [],
+        "intent": "lost_card",
+        "text": "my credit card got damaged"
+      },
+      {
+        "entities": [],
+        "intent": "lost_card",
+        "text": "I am unable to find my credit card"
+      },
+      {
+        "entities": [],
+        "intent": "summary",
+        "text": "Account Summary "
+      },
+      {
+        "entities": [],
+        "intent": "summary",
+        "text": "show me the summary of my account "
+      },
+      {
+        "entities": [],
+        "intent": "show_balance",
+        "text": "account balance please "
+      },
+      {
+        "entities": [],
+        "intent": "summary",
+        "text": "Account status "
+      },
+      {
+        "entities": [],
+        "intent": "transaction",
+        "text": "my last transaction "
+      },
+      {
+        "entities": [],
+        "intent": "transaction",
+        "text": "transaction list "
+      },
+      {
+        "entities": [],
+        "intent": "transaction",
+        "text": "transaction log"
+      },
+      {
+        "entities": [],
+        "intent": "transaction",
+        "text": "transaction time period "
+      },
+      {
+        "entities": [],
+        "intent": "transaction",
+        "text": "can you show me my recent transactions"
+      },
+      {
+        "entities": [],
+        "intent": "transaction",
+        "text": "what did i shop using my credit card"
+      },
+      {
+        "entities": [],
+        "intent": "transaction",
+        "text": "how much money did i spent in my last transaction"
+      },
+      {
+        "entities": [],
+        "intent": "credit_card_limit",
+        "text": "what is the balance limit of my credit card"
+      },
+      {
+        "entities": [],
+        "intent": "credit_card_limit",
+        "text": "how much I can spend using my credit card"
+      },
+      {
+        "entities": [],
+        "intent": "credit_card_limit",
+        "text": "when will my credit card expire"
+      },
+      {
+        "entities": [],
+        "intent": "credit_card_limit",
+        "text": "when to renew my credit card"
+      },
+      {
+        "entities": [],
+        "intent": "credit_card_limit",
+        "text": "expiration date of my credit card"
+      },
+      {
+        "entities": [],
+        "intent": "transfer_credit_card_ownership",
+        "text": "how can i transfer the ownership of my credit card"
+      },
+      {
+        "entities": [],
+        "intent": "credit_card_limit",
+        "text": "how to extend the credit limit of my credit card"
+      },
+      {
+        "entities": [
+          {
+            "value": "debit card",
+            "entity": "card_type",
+            "end": 26,
+            "start": 16
+          }
+        ],
+        "intent": "new_card",
+        "text": "how can i get a debit card"
+      },
+      {
+        "entities": [
+          {
+            "value": "debit card",
+            "entity": "card_type",
+            "end": 29,
+            "start": 19
+          }
+        ],
+        "intent": "new_card",
+        "text": "how can i renew my debit card"
+      },
+      {
+        "entities": [
+          {
+            "value": "debit card ",
+            "entity": "card_type",
+            "end": 35,
+            "start": 24
+          }
+        ],
+        "intent": "card_limit",
+        "text": "what is the limit of my debit card "
+      },
+      {
+        "entities": [],
+        "intent": "change_password",
+        "text": "how to change the password of my debit card"
+      },
+      {
+        "entities": [],
+        "intent": "change_password",
+        "text": "how to set a new password"
+      },
+      {
+        "entities": [],
+        "intent": "lost_card",
+        "text": "how to turn off my lost debit card"
+      },
+      {
+        "entities": [],
+        "intent": "lost_card",
+        "text": "I have lost my credit card"
+      },
+      {
+        "entities": [],
+        "intent": "lost_card",
+        "text": "I have lost my credit card"
+      },
+      {
+        "entities": [
+          {
+            "value": "debit card",
+            "entity": "card_type",
+            "end": 26,
+            "start": 16
+          }
+        ],
+        "intent": "new_card",
+        "text": "I want to get a debit card"
+      },
+      {
+        "entities": [
+          {
+            "value": "debit card",
+            "entity": "card_type",
+            "end": 27,
+            "start": 17
+          }
+        ],
+        "intent": "new_card",
+        "text": "how to get a new debit card"
+      },
+      {
+        "entities": [
+          {
+            "value": "debit card",
+            "entity": "card_type",
+            "end": 10,
+            "start": 0
+          }
+        ],
+        "intent": "new_card",
+        "text": "debit card"
+      },
+      {
+        "entities": [
+          {
+            "value": "debit card",
+            "entity": "card_type",
+            "end": 14,
+            "start": 4
+          }
+        ],
+        "intent": "new_card",
+        "text": "new debit card"
+      },
+      {
+        "entities": [
+          {
+            "value": "debit card",
+            "entity": "card_type",
+            "end": 19,
+            "start": 9
+          }
+        ],
+        "intent": "new_card",
+        "text": "I want a debit card for me"
+      },
+      {
+        "entities": [
+          {
+            "value": "credit card",
+            "entity": "card_type",
+            "end": 20,
+            "start": 9
+          }
+        ],
+        "intent": "new_card",
+        "text": "I want a credit card for me"
+      },
+      {
+        "entities": [],
+        "intent": "show_balance",
+        "text": "what is my current account balance?"
+      },
+      {
+        "entities": [],
+        "intent": "show_balance",
+        "text": "How much money do I have in my account right now?"
+      },
+      {
+        "entities": [],
+        "intent": "summary",
+        "text": "What is the current condition of my account?"
+      },
+      {
+        "entities": [],
+        "intent": "show_balance",
+        "text": "How much money do I have left in my account?"
+      },
+      {
+        "entities": [],
+        "intent": "change_password",
+        "text": "I have forgot my old password"
+      },
+      {
+        "entities": [],
+        "intent": "transaction",
+        "text": "Show me my recent activities of my card"
+      },
+      {
+        "entities": [],
+        "intent": "summary",
+        "text": "Show me my account details"
+      },
+      {
+        "entities": [],
+        "intent": "account_type",
+        "text": "What kind of accounts are there in your bank?"
+      },
+      {
+        "entities": [],
+        "intent": "account_type",
+        "text": "How many types of account I can open in your bank?"
+      },
+      {
+        "entities": [],
+        "intent": "account_type",
+        "text": "How many types of accounts are available in your bank?"
+      },
+      {
+        "entities": [],
+        "intent": "account_type",
+        "text": "Tell me the details of about different kind of account types"
+      },
+      {
+        "entities": [],
+        "intent": "atm_video",
+        "text": "How to get video footage of ATM booth?"
+      },
+      {
+        "entities": [],
+        "intent": "atm_video",
+        "text": "I want to see the video footage of the atm booth of this area"
+      },
+      {
+        "entities": [
+          {
+            "value": "Bashundhara",
+            "entity": "location",
+            "end": 48,
+            "start": 37
+          }
+        ],
+        "intent": "atm_video",
+        "text": "I want to watch the video footage of Bashundhara ATM booth"
+      },
+      {
+        "entities": [],
+        "intent": "atm_video",
+        "text": "Someone hijacked me in the ATM booth."
+      },
+      {
+        "entities": [],
+        "intent": "atm_video",
+        "text": "I want to identify the robbers from ATM booth"
+      },
+      {
+        "entities": [
+          {
+            "value": "Bashundhara",
+            "entity": "location",
+            "end": 69,
+            "start": 58
+          }
+        ],
+        "intent": "atm_video",
+        "text": "Someone forced me to withdraw money from the ATM booth of Bashundhara"
+      },
+      {
+        "entities": [],
+        "intent": "card_limit",
+        "text": "How many transactions can be done in one day using credit or debit card?"
+      },
+      {
+        "entities": [],
+        "intent": "card_limit",
+        "text": "how much money i can withdraw in one day from ATM booth"
+      },
+      {
+        "entities": [],
+        "intent": "card_limit",
+        "text": "How much money I can withdraw from ATM booth using credit card"
+      },
+      {
+        "entities": [],
+        "intent": "card_limit",
+        "text": "How much money I can withdraw from ATM booth using debit card"
+      },
+      {
+        "entities": [],
+        "intent": "card_limit",
+        "text": "how money transactions can be done in one day with shopping card"
+      },
+      {
+        "entities": [],
+        "intent": "card_limit",
+        "text": "how money transactions can be done in one day with credit card"
+      },
+      {
+        "entities": [],
+        "intent": "card_limit",
+        "text": "how money transactions can be done in one day with debit card"
+      },
+      {
+        "entities": [],
+        "intent": "card_limit",
+        "text": "what is highest amount that I can withdraw from atm booth"
+      },
+      {
+        "entities": [],
+        "intent": "card_limit",
+        "text": "what is the maximum amount that i can withdraw from atm booth?"
+      },
+      {
+        "entities": [],
+        "intent": "card_limit",
+        "text": "what is the lowest amount i can withdraw from atm booth?"
+      },
+      {
+        "entities": [],
+        "intent": "card_limit",
+        "text": "what is the minimum amount that i can withdraw from atm machine"
+      },
+      {
+        "entities": [],
+        "intent": "card_limit",
+        "text": "what is the minimum amount that i can withdraw from atm booth"
+      },
+      {
+        "entities": [],
+        "intent": "card_limit",
+        "text": "what is the highest and lowest amount that i can withdraw using atm card in a day?"
+      },
+      {
+        "entities": [],
+        "intent": "card_charge",
+        "text": "How much do you charge for cards?"
+      },
+      {
+        "entities": [
+          {
+            "value": "debit card",
+            "entity": "card_type",
+            "end": 37,
+            "start": 27
+          }
+        ],
+        "intent": "card_charge",
+        "text": "How much do you charge for debit card?"
+      },
+      {
+        "entities": [
+          {
+            "value": "credit card",
+            "entity": "card_type",
+            "end": 38,
+            "start": 27
+          }
+        ],
+        "intent": "card_charge",
+        "text": "How much do you charge for credit card?"
+      },
+      {
+        "entities": [],
+        "intent": "card_charge",
+        "text": "What is the annual fee of card?"
+      },
+      {
+        "entities": [
+          {
+            "value": "credit card",
+            "entity": "card_type",
+            "end": 37,
+            "start": 26
+          }
+        ],
+        "intent": "card_charge",
+        "text": "what is the annual fee of credit card?"
+      },
+      {
+        "entities": [
+          {
+            "value": "debit card",
+            "entity": "card_type",
+            "end": 36,
+            "start": 26
+          }
+        ],
+        "intent": "card_charge",
+        "text": "what is the annual fee of debit card?"
+      },
+      {
+        "entities": [
+          {
+            "value": "debit card",
+            "entity": "card_type",
+            "end": 51,
+            "start": 41
+          }
+        ],
+        "intent": "card_charge",
+        "text": "how much do i have to pay per year for a debit card?"
+      },
+      {
+        "entities": [
+          {
+            "value": "credit card",
+            "entity": "card_type",
+            "end": 48,
+            "start": 37
+          }
+        ],
+        "intent": "card_charge",
+        "text": "How much do I have to pay yearly for credit card?"
+      },
+      {
+        "entities": [],
+        "intent": "card_charge",
+        "text": "yearly fee of cards?"
+      },
+      {
+        "entities": [
+          {
+            "value": "credit card",
+            "entity": "card_type",
+            "end": 25,
+            "start": 14
+          }
+        ],
+        "intent": "card_charge",
+        "text": "yearly fee of credit card?"
+      },
+      {
+        "entities": [],
+        "intent": "get_cheque_book",
+        "text": "How to get a cheque book?"
+      },
+      {
+        "entities": [],
+        "intent": "get_cheque_book",
+        "text": "How to apply for a new cheque book?"
+      },
+      {
+        "entities": [],
+        "intent": "get_cheque_book",
+        "text": "How to order new cheque book?"
+      },
+      {
+        "entities": [],
+        "intent": "get_cheque_book",
+        "text": "I want a new cheque book?"
+      },
+      {
+        "entities": [],
+        "intent": "show_balance",
+        "text": "my current account balance"
+      },
+      {
+        "entities": [],
+        "intent": "loan_details",
+        "text": "Can i get loan from your bank?"
+      },
+      {
+        "entities": [],
+        "intent": "loan_details",
+        "text": "how many types of loan do you provide?"
+      },
+      {
+        "entities": [],
+        "intent": "loan_details",
+        "text": "loan"
+      },
+      {
+        "entities": [],
+        "intent": "loan_details",
+        "text": "loan details"
+      },
+      {
+        "entities": [],
+        "intent": "loan_personal",
+        "text": "do you provide small loan?"
+      },
+      {
+        "entities": [],
+        "intent": "loan_personal",
+        "text": "Can i get loan for medical purposes?"
+      },
+      {
+        "entities": [],
+        "intent": "loan_personal",
+        "text": "Can i get loan for festivals?"
+      },
+      {
+        "entities": [],
+        "intent": "loan_personal",
+        "text": "Do you provide loan for medical purposes?"
+      },
+      {
+        "entities": [],
+        "intent": "loan_personal",
+        "text": "Can i get educational loan?"
+      },
+      {
+        "entities": [],
+        "intent": "loan_personal",
+        "text": "Can i get loan for my study?"
+      },
+      {
+        "entities": [],
+        "intent": "loan_personal",
+        "text": "Do you provide loan for education?"
+      },
+      {
+        "entities": [],
+        "intent": "loan_details",
+        "text": "Does your bank provide loan"
+      },
+      {
+        "entities": [],
+        "intent": "loan_personal",
+        "text": "Does your bank provide loan for educational purpose?"
+      },
+      {
+        "entities": [],
+        "intent": "loan_personal",
+        "text": "Does your bank provide loan for medical purpose?"
+      },
+      {
+        "entities": [
+          {
+            "value": "personal",
+            "entity": "loan",
+            "end": 50,
+            "start": 42
+          }
+        ],
+        "intent": "loan_max",
+        "text": "what is the maximum loan i can get for my personal use?"
+      },
+      {
+        "entities": [],
+        "intent": "loan_max",
+        "text": "How much money i can get from loan?"
+      },
+      {
+        "entities": [
+          {
+            "value": "education",
+            "entity": "loan",
+            "end": 37,
+            "start": 28
+          }
+        ],
+        "intent": "loan_max",
+        "text": "How much loan I can get for education purpose?"
+      },
+      {
+        "entities": [
+          {
+            "value": "personal",
+            "entity": "loan",
+            "end": 38,
+            "start": 30
+          }
+        ],
+        "intent": "loan_max",
+        "text": "Maximum amount I can get from personal loan?"
+      },
+      {
+        "entities": [],
+        "intent": "loan_personal",
+        "text": "Does your bank provide loan for marriage purpose?"
+      },
+      {
+        "entities": [],
+        "intent": "loan_personal",
+        "text": "Does your bank provide loan for travel purpose?"
+      },
+      {
+        "entities": [],
+        "intent": "loan_personal",
+        "text": "Do you provide loan for marriage?"
+      },
+      {
+        "entities": [],
+        "intent": "loan_personal",
+        "text": "Do you provide loan for travel?"
+      },
+      {
+        "entities": [
+          {
+            "value": "education",
+            "entity": "loan",
+            "end": 39,
+            "start": 30
+          }
+        ],
+        "intent": "loan_max",
+        "text": "Maximum amount I can get from education loan?"
+      },
+      {
+        "entities": [
+          {
+            "value": "personal",
+            "entity": "loan",
+            "end": 36,
+            "start": 30
+          }
+        ],
+        "intent": "loan_max",
+        "text": "Maximum amount I can get from travel loan?"
+      },
+      {
+        "entities": [
+          {
+            "value": "marriage",
+            "entity": "loan",
+            "end": 38,
+            "start": 30
+          }
+        ],
+        "intent": "loan_max",
+        "text": "Maximum amount I can get from marriage loan?"
+      },
+      {
+        "entities": [
+          {
+            "value": "home",
+            "entity": "loan",
+            "end": 34,
+            "start": 30
+          }
+        ],
+        "intent": "loan_max",
+        "text": "Maximum amount I can get from home loan?"
+      },
+      {
+        "entities": [],
+        "intent": "loan_max_home",
+        "text": "Maximum loan I can get to build my house?"
+      },
+      {
+        "entities": [],
+        "intent": "loan_max_home",
+        "text": "how much money I can get from your bank to build my house?"
+      },
+      {
+        "entities": [],
+        "intent": "loan_max",
+        "text": "What is the maximum amount I can borrow from your bank?"
+      },
+      {
+        "entities": [],
+        "intent": "loan_max_home",
+        "text": "What is the maximum amount i can borrow to build my house?"
+      },
+      {
+        "entities": [],
+        "intent": "loan_max_home",
+        "text": "How much money I can borrow to build my house?"
+      },
+      {
+        "entities": [],
+        "intent": "loan_home",
+        "text": "Does your bank provide home loan?"
+      },
+      {
+        "entities": [],
+        "intent": "loan_home",
+        "text": "I want to take home loan"
+      },
+      {
+        "entities": [],
+        "intent": "loan_home",
+        "text": "I want to build a house"
+      },
+      {
+        "entities": [],
+        "intent": "loan_home",
+        "text": "Do you provide home loan?"
+      },
+      {
+        "entities": [],
+        "intent": "loan_home",
+        "text": "Can I get loan for my house?"
+      },
+      {
+        "entities": [],
+        "intent": "loan_car",
+        "text": "Can I get loan for my car?"
+      },
+      {
+        "entities": [],
+        "intent": "loan_car",
+        "text": "Do you provide car loan?"
+      },
+      {
+        "entities": [],
+        "intent": "loan_car",
+        "text": "I want to buy a car"
+      },
+      {
+        "entities": [],
+        "intent": "loan_car",
+        "text": "Does your bank provide car loan?"
+      },
+      {
+        "entities": [
+          {
+            "value": "car",
+            "entity": "loan",
+            "end": 33,
+            "start": 30
+          }
+        ],
+        "intent": "loan_max",
+        "text": "maximum amount I can get from car loan?"
+      },
+      {
+        "entities": [],
+        "intent": "loan_car",
+        "text": "maximum amount I can get if I want to buy a car?"
+      },
+      {
+        "entities": [],
+        "intent": "loan_car",
+        "text": "How much money I can get from bank for buying a car?"
+      },
+      {
+        "entities": [],
+        "intent": "loan_car",
+        "text": "maximum money I can borrow to buy a car"
+      },
+      {
+        "entities": [],
+        "intent": "loan_details",
+        "text": "I want to take loan from your bank"
+      },
+      {
+        "entities": [],
+        "intent": "loan_details",
+        "text": "Show me loan details"
+      },
+      {
+        "entities": [],
+        "intent": "loan_details",
+        "text": "What kind of loans I can take from your bank?"
+      },
+      {
+        "entities": [],
+        "intent": "loan_details",
+        "text": "How many types of loans I can take from your bank?"
+      },
+      {
+        "entities": [],
+        "intent": "loan_details",
+        "text": "How many types of loans your bank provides?"
+      },
+      {
+        "entities": [
+          {
+            "value": "car",
+            "entity": "loan",
+            "end": 22,
+            "start": 19
+          }
+        ],
+        "intent": "loan_max",
+        "text": "maximum amount for car loan"
+      },
+      {
+        "entities": [
+          {
+            "value": "credit card",
+            "entity": "card_type",
+            "end": 40,
+            "start": 29
+          }
+        ],
+        "intent": "card_charge",
+        "text": "what is the yearly charge of credit card?"
+      },
+      {
+        "entities": [
+          {
+            "value": "marriage",
+            "entity": "loan",
+            "end": 36,
+            "start": 28
+          }
+        ],
+        "intent": "loan_max",
+        "text": "How much loan I can get for marriage purpose?"
+      },
+      {
+        "entities": [
+          {
+            "value": "education",
+            "entity": "loan",
+            "end": 38,
+            "start": 29
+          }
+        ],
+        "intent": "loan_max",
+        "text": "How much loan I can take for education purpose?"
+      },
+      {
+        "entities": [
+          {
+            "value": "marriage",
+            "entity": "loan",
+            "end": 37,
+            "start": 29
+          }
+        ],
+        "intent": "loan_max",
+        "text": "How much loan I can take for marriage purpose?"
+      },
+      {
+        "entities": [
+          {
+            "value": "medical",
+            "entity": "loan",
+            "end": 36,
+            "start": 29
+          }
+        ],
+        "intent": "loan_max",
+        "text": "How much loan I can take for medical purpose?"
+      },
+      {
+        "entities": [
+          {
+            "value": "medical",
+            "entity": "loan",
+            "end": 35,
+            "start": 28
+          }
+        ],
+        "intent": "loan_max",
+        "text": "How much loan I can get for medical purpose?"
+      },
+      {
+        "entities": [],
+        "intent": "loan_details",
+        "text": "Can I get any loan?"
+      },
+      {
+        "entities": [
+          {
+            "value": "personal",
+            "entity": "loan",
+            "end": 51,
+            "start": 43
+          }
+        ],
+        "intent": "loan_min",
+        "text": "What is the minimum amount I can borrow as personal loan?"
+      },
+      {
+        "entities": [
+          {
+            "value": "personal",
+            "entity": "loan",
+            "end": 49,
+            "start": 41
+          }
+        ],
+        "intent": "loan_min",
+        "text": "What is the minimum amount I can take as personal loan?"
+      },
+      {
+        "entities": [
+          {
+            "value": "personal",
+            "entity": "loan",
+            "end": 49,
+            "start": 41
+          }
+        ],
+        "intent": "loan_min",
+        "text": "What is the minimum amount I can take as personal loan?"
+      },
+      {
+        "entities": [
+          {
+            "value": "marriage",
+            "entity": "loan",
+            "end": 52,
+            "start": 44
+          }
+        ],
+        "intent": "loan_min",
+        "text": "What is the minimum amount I can borrow for marriage?"
+      },
+      {
+        "entities": [
+          {
+            "value": "traveling",
+            "entity": "loan",
+            "end": 53,
+            "start": 44
+          }
+        ],
+        "intent": "loan_min",
+        "text": "What is the minimum amount I can borrow for traveling?"
+      },
+      {
+        "entities": [
+          {
+            "value": "education",
+            "entity": "loan",
+            "end": 53,
+            "start": 44
+          }
+        ],
+        "intent": "loan_min",
+        "text": "What is the minimum amount I can borrow for education?"
+      },
+      {
+        "entities": [
+          {
+            "value": "marriage",
+            "entity": "loan",
+            "end": 50,
+            "start": 42
+          }
+        ],
+        "intent": "loan_min",
+        "text": "What is the minimum amount I can take for marriage?"
+      },
+      {
+        "entities": [
+          {
+            "value": "traveling",
+            "entity": "loan",
+            "end": 51,
+            "start": 42
+          }
+        ],
+        "intent": "loan_min",
+        "text": "What is the minimum amount I can take for traveling?"
+      },
+      {
+        "entities": [
+          {
+            "value": "medical",
+            "entity": "loan",
+            "end": 49,
+            "start": 42
+          }
+        ],
+        "intent": "loan_min",
+        "text": "What is the minimum amount I can take for medical treatment?"
+      },
+      {
+        "entities": [
+          {
+            "value": "personal",
+            "entity": "loan",
+            "end": 50,
+            "start": 42
+          }
+        ],
+        "intent": "loan_min",
+        "text": "What is the minimum amount I can take for personal use?"
+      },
+      {
+        "entities": [
+          {
+            "value": "car",
+            "entity": "loan",
+            "end": 33,
+            "start": 30
+          }
+        ],
+        "intent": "loan_max",
+        "text": "What is the maximum amount of car loan I can take?"
+      },
+      {
+        "entities": [],
+        "intent": "loan_max_home",
+        "text": "What is the maximum amount of home loan I can get?"
+      },
+      {
+        "entities": [],
+        "intent": "loan_max_home",
+        "text": "What is the maximum amount of home loan I can take?"
+      },
+      {
+        "entities": [
+          {
+            "value": "personal",
+            "entity": "loan",
+            "end": 16,
+            "start": 8
+          }
+        ],
+        "intent": "loan_min",
+        "text": "Minimum personal loan"
+      },
+      {
+        "entities": [
+          {
+            "value": "persona",
+            "entity": "loan",
+            "end": 27,
+            "start": 20
+          }
+        ],
+        "intent": "loan_min",
+        "text": "What is the minimum personal loan I can take?"
+      },
+      {
+        "entities": [
+          {
+            "value": "car",
+            "entity": "loan",
+            "end": 23,
+            "start": 20
+          }
+        ],
+        "intent": "loan_min",
+        "text": "What is the minimum car loan I can take?"
+      },
+      {
+        "entities": [
+          {
+            "value": "home",
+            "entity": "loan",
+            "end": 24,
+            "start": 20
+          }
+        ],
+        "intent": "loan_min",
+        "text": "What is the minimum home loan I can take?"
+      },
+      {
+        "entities": [],
+        "intent": "loan_min_home",
+        "text": "Minimum loan I can get to build my house?"
+      },
+      {
+        "entities": [
+          {
+            "value": "home",
+            "entity": "loan",
+            "end": 54,
+            "start": 50
+          }
+        ],
+        "intent": "loan_max",
+        "text": "What is the highest amount of loan I can take for home loan?"
+      },
+      {
+        "entities": [
+          {
+            "value": "car",
+            "entity": "loan",
+            "end": 53,
+            "start": 50
+          }
+        ],
+        "intent": "loan_max",
+        "text": "What is the highest amount of loan I can take for car loan?"
+      },
+      {
+        "entities": [
+          {
+            "value": "personal",
+            "entity": "loan",
+            "end": 58,
+            "start": 50
+          }
+        ],
+        "intent": "loan_max",
+        "text": "What is the highest amount of loan I can take for personal loan?"
+      },
+      {
+        "entities": [
+          {
+            "value": "personal",
+            "entity": "loan",
+            "end": 57,
+            "start": 49
+          }
+        ],
+        "intent": "loan_min",
+        "text": "What is the lowest amount of loan I can take for personal loan?"
+      },
+      {
+        "entities": [
+          {
+            "value": "home",
+            "entity": "loan",
+            "end": 53,
+            "start": 49
+          }
+        ],
+        "intent": "loan_min",
+        "text": "What is the lowest amount of loan I can take for home loan?"
+      },
+      {
+        "entities": [
+          {
+            "value": "car",
+            "entity": "loan",
+            "end": 52,
+            "start": 49
+          }
+        ],
+        "intent": "loan_min",
+        "text": "What is the lowest amount of loan I can take for car loan?"
+      }
+    ]
+  }
+}

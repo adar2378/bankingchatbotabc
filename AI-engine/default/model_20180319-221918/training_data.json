@@ -1,0 +1,153 @@
+{
+  "rasa_nlu_data": {
+    "regex_features": [],
+    "entity_synonyms": [],
+    "common_examples": [
+      {
+        "entities": [],
+        "text": "hey",
+        "intent": "greet"
+      },
+      {
+        "entities": [],
+        "text": "howdy",
+        "intent": "greet"
+      },
+      {
+        "entities": [],
+        "text": "hey there",
+        "intent": "greet"
+      },
+      {
+        "entities": [],
+        "text": "hello",
+        "intent": "greet"
+      },
+      {
+        "entities": [],
+        "text": "hi",
+        "intent": "greet"
+      },
+      {
+        "entities": [],
+        "text": "yes",
+        "intent": "affirm"
+      },
+      {
+        "entities": [],
+        "text": "yep",
+        "intent": "affirm"
+      },
+      {
+        "entities": [],
+        "text": "yeah",
+        "intent": "affirm"
+      },
+      {
+        "entities": [],
+        "text": "bye",
+        "intent": "goodbye"
+      },
+      {
+        "entities": [],
+        "text": "goodbye",
+        "intent": "goodbye"
+      },
+      {
+        "entities": [],
+        "text": "good bye",
+        "intent": "goodbye"
+      },
+      {
+        "entities": [],
+        "text": "stop",
+        "intent": "goodbye"
+      },
+      {
+        "entities": [],
+        "text": "indeed",
+        "intent": "affirm"
+      },
+      {
+        "entities": [],
+        "text": "that's right",
+        "intent": "affirm"
+      },
+      {
+        "entities": [],
+        "text": "ok",
+        "intent": "affirm"
+      },
+      {
+        "entities": [],
+        "text": "great",
+        "intent": "affirm"
+      },
+      {
+        "entities": [],
+        "text": "what's up?",
+        "intent": "greet"
+      },
+      {
+        "entities": [],
+        "text": "I want a new credit card",
+        "intent": "new_credit_card"
+      },
+      {
+        "entities": [],
+        "text": "how to get a new credit card?",
+        "intent": "new_credit_card"
+      },
+      {
+        "entities": [],
+        "text": "credit card",
+        "intent": "new_credit_card"
+      },
+      {
+        "entities": [],
+        "text": "new credit card",
+        "intent": "new_credit_card"
+      },
+      {
+        "entities": [],
+        "text": "I've lost my credit card",
+        "intent": "lost_credit_card"
+      },
+      {
+        "entities": [],
+        "text": "my credit card is not working.",
+        "intent": "lost_credit_card"
+      },
+      {
+        "entities": [],
+        "text": "my credit card is damaged",
+        "intent": "lost_credit_card"
+      },
+      {
+        "entities": [],
+        "text": "I want to close my credit card",
+        "intent": "lost_credit_card"
+      },
+      {
+        "entities": [],
+        "text": "my credit card is stolen!",
+        "intent": "lost_credit_card"
+      },
+      {
+        "entities": [],
+        "text": "Someone has stolen my credit card",
+        "intent": "lost_credit_card"
+      },
+      {
+        "entities": [],
+        "text": "my credit card got damaged",
+        "intent": "lost_credit_card"
+      },
+      {
+        "entities": [],
+        "text": "I am unable to find my credit card",
+        "intent": "lost_credit_card"
+      }
+    ]
+  }
+}

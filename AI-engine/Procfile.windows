@@ -1,0 +1,4 @@
+web: python -m spacy download en_core_web_md
+web: python -m spacy link en_core_web_md en 
+
+web: python -m rasa_nlu.server -c config_spacy.json
