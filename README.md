@@ -33,7 +33,7 @@ Then run the App.py to deploy the chatbot
 
 ## Demo
 
-<iframe width="640" height="360" src="https://www.youtube.com/embed/QRa4cQv-xoQ" frameborder="0" allow="autoplay; encrypted-media" allowfullscreen></iframe>
+[![Alt text](https://img.youtube.com/vi/QRa4cQv-xoQ/0.jpg)](https://www.youtube.com/watch?v=QRa4cQv-xoQ)
 
 ## Built With
 
