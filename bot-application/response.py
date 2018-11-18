@@ -1,17 +1,12 @@
-##dict of response for each type of intent
+##dict of response for each type of basic intent
 response = {
     "greet":["hey","hello","hi"],
     "goodbye":["bye","It was nice talking to you","see you","ttyl"],
     "affirm":["cool","I know you would like it"],
-    "day_preference":["which day of conference ?"],
-    "time_preference":["Do you have any time preference"],
-    "events_link":['You can check all the events here <a href="https://conference.pydelhi.org/#schedule_table">PyDelhi events</a>'],
-    "no_events":["No events found"],
     "intro":["I am a chat-bot for abc bank, I can help you with your bank related queries","I'm a chat-bot traied to help people with their queries related to bank"],
     "atm_video":["Sorry, I can not help you with this directly, it will be better if you go and talk to the nearest branch of our bank and talk to the manager personally, thanks"],
     "card_limit":["By using your card you can withdraw maximum 50,000 tk and minimum 500tk in one day with maximum 5 transactions"],
     "credit_card_limit":["You can spend total 70,000tk with your credit card"],
-    
     "new_card":["To get a new credit/debit card go to the nearest bank with your 2 passport sized photo and photocopy of one of the following documents: 1.NID\n2.Driving license\n3. Passport "]
 }
 import datetime
