@@ -1,7 +1,6 @@
 from flask import Flask
 from flask import render_template,jsonify,request
 import requests
-from models import *
 from response import *
 import random
 
